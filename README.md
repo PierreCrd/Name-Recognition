@@ -43,6 +43,6 @@ The rule is based on the use of capital letters. It identifies a name as a word 
 
 #### Potential Improvements:
  - __Handling Mixed Case Names:__ In cases where a name is not entirely written in capital letters, one approach could be to select a tuple of consecutive words (word_1, word_2) where both start with a capital letter. This method would still require the use of a blacklist to avoid confusion with titles.
- - __Database for Surnames:__ Utilize a database to identify surnames, then take the following word (if it starts with a capital letter) or the previous one otherwise to identify the name.
+ - __Database for Surnames:__ Utilize a database to identify surnames, then take the following word (if it starts with a capital letter or the previous one otherwise) to identify the name.
  - __Text Reconstruction with Symbols:__ Consider symbols like "-" during text reconstruction. In the current version, if the OCR identifies three BBoxes for "Jean-Charles" (one for "Jean", one for "-", and one for "Charles"), the reconstructed text from the OCR output will be "Jean - Charles".
 
