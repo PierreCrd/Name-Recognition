@@ -13,7 +13,6 @@ Prérequis:
 1. Clone the repository on your local machine :
 
 ```sh
-Copy code
 git clone https://github.com/PierreCrd/Name-Recognition
 cd Name-Recognition
 ```
